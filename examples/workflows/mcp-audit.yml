@@ -1,0 +1,24 @@
+# .github/workflows/mcp-audit.yml — scan the MCP servers this repo configures on every PR
+name: mcp-audit
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 6 * * 1"   # weekly, catches upstream rug-pulls
+permissions:
+  contents: read
+  security-events: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4   # for npx-launched servers
+        with:
+          node-version: 20
+      - uses: Sebastianrodaaa/mcp-audit@main
+        with:
+          target: .cursor/mcp.json
+          lockfile: mcp-audit.lock
+          fail-on: high

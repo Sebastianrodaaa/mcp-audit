@@ -1,0 +1,847 @@
+{"id": "clean/FileSystem/read_file", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/FileSystem/read_multiple_files", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/FileSystem/write_file", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/FileSystem/edit_file", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/FileSystem/create_directory", "split": "test", "label": 0, "pred": true, "rules": ["MA008"], "score": 2}
+{"id": "clean/FileSystem/list_directory", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/FileSystem/directory_tree", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/FileSystem/move_file", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/FileSystem/search_files", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/FileSystem/get_file_info", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/FileSystem/list_allowed_directories", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Puppeteer/puppeteer_navigate", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Puppeteer/puppeteer_screenshot", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Puppeteer/puppeteer_click", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Puppeteer/puppeteer_fill", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Puppeteer/puppeteer_select", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Puppeteer/puppeteer_hover", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Puppeteer/puppeteer_evaluate", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AmapMap/maps_regeocode", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AmapMap/maps_geo", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AmapMap/maps_ip_location", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AmapMap/maps_weather", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AmapMap/maps_search_detail", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AmapMap/maps_bicycling", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AmapMap/maps_direction_walking", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AmapMap/maps_direction_driving", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AmapMap/maps_direction_transit_integrated", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AmapMap/maps_distance", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AmapMap/maps_text_search", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AmapMap/maps_around_search", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AdFin/upload_invoice_to_adfin", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AdFin/put_schedules", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AdFin/get_schedules_templates", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AdFin/put_schedules_templates", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AdFin/get_schedules_templates_settings", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AdFin/put_schedules_templates_settings", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AdFin/put_schedules_messages", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AdFin/put_invoices_id_void", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AdFin/put_invoices_id_mark_as_paid", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AdFin/put_invoices_id_activate", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AdFin/get_customers", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AdFin/put_customers", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AdFin/post_customers", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AdFin/get_customers_id_directdebitmandates", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AdFin/put_customers_id_directdebitmandates", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AdFin/put_customers_directdebitmandates_id_cancel", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AdFin/get_apps_clientId_webhooks_webhookId", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AdFin/put_apps_clientId_webhooks_webhookId", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AdFin/delete_apps_clientId_webhooks_webhookId", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AdFin/put_apps_clientId_webhooks_digest", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Flomo/write_note", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Github/create_or_update_file", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Github/search_repositories", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Github/create_repository", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Github/get_file_contents", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Github/push_files", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Github/create_issue", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Github/create_pull_request", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Github/fork_repository", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Github/create_branch", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Github/list_commits", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Github/list_issues", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Github/update_issue", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Github/add_issue_comment", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Github/search_code", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Github/search_issues", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Github/search_users", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Github/get_issue", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Github/get_pull_request", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Github/list_pull_requests", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Github/create_pull_request_review", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AWSKnowledgeBase/retrieve_from_aws_kb", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Slack/slack_list_channels", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Slack/slack_post_message", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Slack/slack_reply_to_thread", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Slack/slack_add_reaction", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Slack/slack_get_channel_history", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Slack/slack_get_thread_replies", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Slack/slack_get_users", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Slack/slack_get_user_profile", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/KeywordsPeopleUse/people-also-ask", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/KeywordsPeopleUse/google-autocomplete", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/KeywordsPeopleUse/forums", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/KeywordsPeopleUse/semantic-keywords", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Claude Post/search-emails", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Claude Post/get-email-content", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Claude Post/count-daily-emails", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Claude Post/send-email", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DumplingAI/get-youtube-transcript", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DumplingAI/search", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DumplingAI/get-autocomplete", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DumplingAI/search-maps", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DumplingAI/search-places", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DumplingAI/search-news", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DumplingAI/get-google-reviews", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DumplingAI/scrape", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DumplingAI/crawl", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DumplingAI/extract", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DumplingAI/screenshot", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DumplingAI/doc-to-text", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DumplingAI/convert-to-pdf", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DumplingAI/merge-pdfs", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DumplingAI/trim-video", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DumplingAI/extract-document", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DumplingAI/extract-image", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DumplingAI/extract-audio", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DumplingAI/extract-video", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DumplingAI/read-pdf-metadata", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/HyperBrowser/scrape_webpage", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/HyperBrowser/crawl_webpages", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/HyperBrowser/extract_structured_data", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/HyperBrowser/browser_use_agent", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/HyperBrowser/openai_computer_use_agent", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/HyperBrowser/claude_computer_use_agent", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/HyperBrowser/search_with_bing", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/HyperBrowser/create_profile", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/HyperBrowser/delete_profile", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/HyperBrowser/list_profiles", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/SQLite/read_query", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/SQLite/write_query", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/SQLite/create_table", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/SQLite/list_tables", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/SQLite/describe_table", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/SQLite/append_insight", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/QuickChart/generate_chart", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/QuickChart/download_chart", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Sequential Thinking/sequentialthinking", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Email/sendBulkMail", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Email/sendMail", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Email/sendSimpleMail", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Email/sendHtmlMail", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Email/waitForReply", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Email/searchEmails", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Email/listEmails", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Email/getContacts", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Email/getEmailDetail", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Email/deleteEmail", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Email/moveEmail", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Email/getAttachment", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Email/listFolders", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Email/markMultipleAsRead", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Email/markMultipleAsUnread", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Email/markAsRead", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Email/markAsUnread", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Fetch/fetch", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/12306-mcp/search", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Commander/get_config", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Commander/set_config_value", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Commander/read_file", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Commander/read_multiple_files", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Commander/write_file", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Commander/create_directory", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Commander/list_directory", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Commander/move_file", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Commander/search_files", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Commander/search_code", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Commander/get_file_info", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Commander/edit_block", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Commander/execute_command", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Commander/read_output", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Commander/force_terminate", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Commander/list_sessions", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Commander/list_processes", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Commander/kill_process", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Redis/set", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Redis/get", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Redis/delete", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Redis/list", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Everything/echo", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Everything/add", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Everything/printEnv", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Everything/longRunningOperation", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Everything/sampleLLM", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Everything/getTinyImage", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Everything/annotatedMessage", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Everything/getResourceReference", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Gitlab/create_or_update_file", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Gitlab/search_repositories", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Gitlab/create_repository", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Gitlab/get_file_contents", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Gitlab/push_files", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Gitlab/create_issue", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Gitlab/create_merge_request", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Gitlab/fork_repository", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Gitlab/create_branch", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/E2B/run_code", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/gNucleus Text to CAD/text_to_cad", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Gyazo/gyazo_search", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Gyazo/gyazo_image", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Gyazo/gyazo_latest_image", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Gyazo/gyazo_upload", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/mcp-simple-arxiv/search_papers", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/mcp-simple-arxiv/get_paper_data", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/mcp-simple-arxiv/list_categories", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/mcp-simple-arxiv/update_categories", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Memory/create_entities", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Memory/create_relations", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Memory/add_observations", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Memory/delete_entities", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Memory/delete_observations", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Memory/delete_relations", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Memory/read_graph", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Memory/search_nodes", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Memory/open_nodes", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/BraveSearch/brave_web_search", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/BraveSearch/brave_local_search", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AgentQL/extract-web-data", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AlphaVantage/stock_quote", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AlphaVantage/time_series_intraday", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AlphaVantage/time_series_daily", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AlphaVantage/time_series_daily_adjusted", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AlphaVantage/time_series_weekly", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AlphaVantage/time_series_weekly_adjusted", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AlphaVantage/time_series_monthly", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AlphaVantage/time_series_monthly_adjusted", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AlphaVantage/realtime_bulk_quotes", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AlphaVantage/symbol_search", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AlphaVantage/market_status", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AlphaVantage/realtime_options", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AlphaVantage/historical_options", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AlphaVantage/news_sentiment", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AlphaVantage/top_gainers_losers", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AlphaVantage/insider_transactions", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AlphaVantage/analytics_fixed_window", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AlphaVantage/analytics_sliding_window", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AlphaVantage/company_overview", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/AlphaVantage/etf_profile", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/BaiduMap/map_geocode", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/BaiduMap/map_reverse_geocode", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/BaiduMap/map_search_places", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/BaiduMap/map_place_details", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/BaiduMap/map_distance_matrix", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/BaiduMap/map_directions", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/BaiduMap/map_weather", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/BaiduMap/map_ip_location", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/BaiduMap/map_road_traffic", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/BaiduMap/map_poi_extract", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/wechat/send-whatsapp-message", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/wechat/check-whatsapp-status", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/wechat/list-recent-contacts", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Git/git_status", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Git/git_diff_unstaged", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Git/git_diff_staged", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Git/git_diff", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Git/git_commit", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Git/git_add", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Git/git_reset", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Git/git_log", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Git/git_create_branch", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Git/git_checkout", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Git/git_show", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/GoogleDrive/search", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Sentry/get_sentry_issue", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Google Maps/maps_geocode", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Google Maps/maps_reverse_geocode", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Google Maps/maps_search_places", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Google Maps/maps_place_details", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Google Maps/maps_distance_matrix", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Google Maps/maps_elevation", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Google Maps/maps_directions", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DoDo Payments/create_payments", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DoDo Payments/retrieve_payments", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DoDo Payments/list_payments", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DoDo Payments/retrieve_line_items_payments", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DoDo Payments/create_subscriptions", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DoDo Payments/retrieve_subscriptions", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DoDo Payments/update_subscriptions", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DoDo Payments/list_subscriptions", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DoDo Payments/change_plan_subscriptions", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DoDo Payments/charge_subscriptions", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DoDo Payments/retrieve_invoices_payments", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DoDo Payments/activate_licenses", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DoDo Payments/deactivate_licenses", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DoDo Payments/validate_licenses", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DoDo Payments/retrieve_license_keys", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DoDo Payments/update_license_keys", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DoDo Payments/list_license_keys", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DoDo Payments/retrieve_license_key_instances", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DoDo Payments/update_license_key_instances", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/DoDo Payments/list_license_key_instances", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Apify/abort-actor-run", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Apify/get-actor-details", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Apify/get-actor", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Apify/get-actor-log", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Apify/get-actor-run", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Apify/get-dataset", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Apify/get-dataset-items", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Apify/get-key-value-store", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Apify/get-key-value-store-keys", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Apify/get-key-value-store-record", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Apify/get-actor-run-list", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Apify/get-dataset-list", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Apify/get-key-value-store-list", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Apify/apify-actor-help-tool", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Apify/search-actors", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Apify/apify-slash-rag-web-browser", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/OP.GG/lol-champion-leader-board", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/OP.GG/lol-champion-analysis", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/OP.GG/lol-champion-meta-data", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/OP.GG/lol-champion-skin-sale", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/OP.GG/lol-summoner-search", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/OP.GG/lol-champion-positions-data", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/OP.GG/lol-summoner-game-history", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/OP.GG/lol-summoner-renewal", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/OP.GG/esports-lol-schedules", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/OP.GG/esports-lol-team-standings", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/OP.GG/tft-meta-trend-deck-list", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/OP.GG/tft-meta-item-combinations", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/OP.GG/tft-champion-item-build", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/OP.GG/tft-recommend-champion-for-item", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/OP.GG/tft-play-style-comment", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/OP.GG/valorant-meta-maps", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/OP.GG/valorant-meta-characters", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/OP.GG/valorant-leaderboard", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/OP.GG/valorant-agents-composition-with-map", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/OP.GG/valorant-characters-statistics", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Tavily/tavily-search", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Tavily/tavily-extract", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Tavily/tavily-crawl", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Tavily/tavily-map", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Codacy/codacy_list_organization_repositories", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Codacy/codacy_search_organization_srm_items", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Codacy/codacy_search_repository_srm_items", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Codacy/codacy_list_repository_issues", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Codacy/codacy_list_repository_pull_requests", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Codacy/codacy_list_files", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Codacy/codacy_get_file_issues", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Codacy/codacy_get_file_coverage", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Codacy/codacy_get_pull_request_files_coverage", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Codacy/codacy_get_pull_request_git_diff", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Codacy/codacy_list_pull_request_issues", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Codacy/codacy_get_repository_with_analysis", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Codacy/codacy_get_file_with_analysis", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Codacy/codacy_get_file_clones", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Codacy/codacy_get_repository_pull_request", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Codacy/codacy_get_issue", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Codacy/codacy_get_pattern", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Codacy/codacy_list_repository_tool_patterns", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Codacy/codacy_list_tools", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Codacy/codacy_list_repository_tools", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Financial Dataset/get_income_statements", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Financial Dataset/get_balance_sheets", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Financial Dataset/get_cash_flow_statements", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Financial Dataset/get_current_stock_price", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Financial Dataset/get_historical_stock_prices", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Financial Dataset/get_company_news", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Financial Dataset/get_available_crypto_tickers", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Financial Dataset/get_crypto_prices", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Financial Dataset/get_historical_crypto_prices", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Financial Dataset/get_current_crypto_price", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Financial Dataset/get_sec_filings", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Prisma/migrate-status", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Prisma/migrate-dev", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Prisma/migrate-reset", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Prisma/Prisma-Postgres-account-status", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Prisma/Create-Prisma-Postgres-Database", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Prisma/Prisma-Login", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/Prisma/Prisma-Studio", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/ClickHouse/list_databases", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/ClickHouse/list_tables", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/ClickHouse/run_select_query", "split": "test", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "clean/EverArt/generate_image", "split": "dev", "label": 0, "pred": false, "rules": [], "score": -1}
+{"id": "poisoned/FileSystem_1", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004", "MA007"], "score": 3}
+{"id": "poisoned/FileSystem_2", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/FileSystem_3", "split": "test", "label": 1, "pred": true, "rules": ["MA003", "MA004"], "score": 3}
+{"id": "poisoned/FileSystem_4", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/FileSystem_5", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/FileSystem_6", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/FileSystem_7", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/FileSystem_8", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/FileSystem_9", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/FileSystem_10", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/FileSystem_11", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/FileSystem_12", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/FileSystem_13", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/FileSystem_14", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/FileSystem_15", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/FileSystem_16", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/FileSystem_17", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/FileSystem_18", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/FileSystem_19", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/FileSystem_20", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/FileSystem_21", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/FileSystem_22", "split": "test", "label": 1, "pred": true, "rules": ["MA003", "MA004"], "score": 3}
+{"id": "poisoned/FileSystem_23", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/FileSystem_24", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Puppeteer_1", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Puppeteer_2", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004", "MA007"], "score": 3}
+{"id": "poisoned/Puppeteer_3", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Puppeteer_4", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004", "MA007"], "score": 3}
+{"id": "poisoned/Puppeteer_5", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Puppeteer_6", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Puppeteer_7", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Puppeteer_8", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Puppeteer_9", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Puppeteer_10", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Puppeteer_11", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Puppeteer_12", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Puppeteer_13", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004", "MA010"], "score": 3}
+{"id": "poisoned/Puppeteer_14", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Puppeteer_15", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004", "MA007", "MA010"], "score": 3}
+{"id": "poisoned/Puppeteer_16", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AmapMap_1", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AmapMap_2", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AmapMap_3", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AmapMap_4", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AmapMap_5", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AmapMap_6", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AmapMap_7", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AmapMap_8", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AmapMap_9", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AmapMap_10", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AdFin_1", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AdFin_2", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AdFin_3", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AdFin_4", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AdFin_5", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AdFin_6", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AdFin_7", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AdFin_8", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AdFin_9", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AdFin_10", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AdFin_11", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AdFin_12", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/AdFin_13", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Flomo_1", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Github_1", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Github_2", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Github_3", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Github_4", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Github_5", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Github_6", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Github_7", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Github_8", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Github_9", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/Github_10", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Github_11", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/Github_12", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Github_13", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/Github_14", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Github_15", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Github_16", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/Github_17", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Github_18", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Github_19", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AWSKnowledgeBase_1", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AWSKnowledgeBase_2", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Slack_1", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Slack_2", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Slack_3", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Slack_4", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Slack_5", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Slack_6", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Slack_7", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Slack_8", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Slack_9", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Slack_10", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Slack_11", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Slack_12", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Slack_13", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Slack_14", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004", "MA010"], "score": 3}
+{"id": "poisoned/KeywordsPeopleUse_1", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/KeywordsPeopleUse_2", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/KeywordsPeopleUse_3", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Claude Post_1", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Claude Post_2", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Claude Post_3", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Claude Post_4", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004", "MA007"], "score": 3}
+{"id": "poisoned/DumplingAI_1", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/DumplingAI_2", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/DumplingAI_3", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/DumplingAI_4", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/DumplingAI_5", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/DumplingAI_6", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/DumplingAI_7", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/DumplingAI_8", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/DumplingAI_9", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/DumplingAI_10", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/DumplingAI_11", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/DumplingAI_12", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/HyperBrowser_1", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/HyperBrowser_2", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/HyperBrowser_3", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/HyperBrowser_4", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/HyperBrowser_5", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/HyperBrowser_6", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/HyperBrowser_7", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/HyperBrowser_8", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/HyperBrowser_9", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/HyperBrowser_10", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/HyperBrowser_11", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/SQLite_1", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/SQLite_2", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/SQLite_3", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/SQLite_4", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/SQLite_5", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/SQLite_6", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/SQLite_7", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/SQLite_8", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/QuickChart_1", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Sequential Thinking_1", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Email_1", "split": "dev", "label": 1, "pred": false, "rules": [], "score": -1}
+{"id": "poisoned/Email_2", "split": "dev", "label": 1, "pred": false, "rules": [], "score": -1}
+{"id": "poisoned/Email_3", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Email_4", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Email_5", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Email_6", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Email_7", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Email_8", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Email_9", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Email_10", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Email_11", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Email_12", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004", "MA007"], "score": 3}
+{"id": "poisoned/Email_13", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Email_14", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Email_15", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Email_16", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Email_17", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Email_18", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Email_19", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Email_20", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Email_21", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Email_22", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Email_23", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Email_24", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Email_25", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Email_26", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Email_27", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Email_28", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Email_29", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Email_30", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Email_31", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Email_32", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Email_33", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Email_34", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Email_35", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Email_36", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Email_37", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Email_38", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Email_39", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Email_40", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Email_41", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Fetch_1", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/12306-mcp_1", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Commander_1", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004", "MA010"], "score": 3}
+{"id": "poisoned/Commander_2", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/Commander_3", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Commander_4", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Commander_5", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Commander_6", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Commander_7", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/Commander_8", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Commander_9", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Commander_10", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/Commander_11", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/Commander_12", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Commander_13", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Commander_14", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Commander_15", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Commander_16", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Commander_17", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/Commander_18", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/Commander_19", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/Commander_20", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Commander_21", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Commander_22", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Commander_23", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/Commander_24", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Commander_25", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Commander_26", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Redis_1", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/Redis_2", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/Redis_3", "split": "dev", "label": 1, "pred": true, "rules": ["MA003", "MA004"], "score": 3}
+{"id": "poisoned/Redis_4", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Redis_5", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Everything_1", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Everything_2", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Everything_3", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Everything_4", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Everything_5", "split": "dev", "label": 1, "pred": true, "rules": ["MA004", "MA007"], "score": 3}
+{"id": "poisoned/Everything_6", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Everything_7", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Everything_8", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Gitlab_1", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/Gitlab_2", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/Gitlab_3", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Gitlab_4", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/Gitlab_5", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Gitlab_6", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/Gitlab_7", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Gitlab_8", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/Gitlab_9", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/E2B_1", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/gNucleus Text to CAD_1", "split": "test", "label": 1, "pred": true, "rules": ["MA003", "MA004"], "score": 3}
+{"id": "poisoned/Gyazo_1", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/Gyazo_2", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Gyazo_3", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/Gyazo_4", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004", "MA007"], "score": 3}
+{"id": "poisoned/Gyazo_5", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/mcp-simple-arxiv_1", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/mcp-simple-arxiv_2", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/mcp-simple-arxiv_3", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/mcp-simple-arxiv_4", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/mcp-simple-arxiv_5", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/mcp-simple-arxiv_6", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/mcp-simple-arxiv_7", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/mcp-simple-arxiv_8", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/mcp-simple-arxiv_9", "split": "dev", "label": 1, "pred": true, "rules": ["MA008"], "score": 2}
+{"id": "poisoned/mcp-simple-arxiv_10", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/mcp-simple-arxiv_11", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/mcp-simple-arxiv_12", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/mcp-simple-arxiv_13", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/mcp-simple-arxiv_14", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/mcp-simple-arxiv_15", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/mcp-simple-arxiv_16", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/mcp-simple-arxiv_17", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Memory_1", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Memory_2", "split": "test", "label": 1, "pred": true, "rules": ["MA004", "MA008"], "score": 3}
+{"id": "poisoned/Memory_3", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Memory_4", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Memory_5", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Memory_6", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Memory_7", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Memory_8", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Memory_9", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Memory_10", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Memory_11", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Memory_12", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Memory_13", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Memory_14", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Memory_15", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/BraveSearch_1", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/BraveSearch_2", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/BraveSearch_3", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/BraveSearch_4", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/BraveSearch_5", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/BraveSearch_6", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/BraveSearch_7", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/BraveSearch_8", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/BraveSearch_9", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/BraveSearch_10", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/BraveSearch_11", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AgentQL_1", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AgentQL_2", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/AgentQL_3", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/AgentQL_4", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/AgentQL_5", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AgentQL_6", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AlphaVantage_1", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AlphaVantage_2", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AlphaVantage_3", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AlphaVantage_4", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/AlphaVantage_5", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/AlphaVantage_6", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/AlphaVantage_7", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/AlphaVantage_8", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/AlphaVantage_9", "split": "test", "label": 1, "pred": false, "rules": [], "score": -1}
+{"id": "poisoned/AlphaVantage_10", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/AlphaVantage_11", "split": "test", "label": 1, "pred": false, "rules": [], "score": -1}
+{"id": "poisoned/AlphaVantage_12", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/AlphaVantage_13", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/AlphaVantage_14", "split": "test", "label": 1, "pred": false, "rules": [], "score": -1}
+{"id": "poisoned/AlphaVantage_15", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/AlphaVantage_16", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/BaiduMap_1", "split": "test", "label": 1, "pred": true, "rules": ["MA004", "MA008"], "score": 3}
+{"id": "poisoned/BaiduMap_2", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/BaiduMap_3", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/BaiduMap_4", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/BaiduMap_5", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/BaiduMap_6", "split": "test", "label": 1, "pred": true, "rules": ["MA002"], "score": 2}
+{"id": "poisoned/BaiduMap_7", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/BaiduMap_8", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/BaiduMap_9", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/BaiduMap_10", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/BaiduMap_11", "split": "test", "label": 1, "pred": true, "rules": ["MA002"], "score": 2}
+{"id": "poisoned/wechat_1", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/wechat_2", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/wechat_3", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/wechat_4", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Git_1", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Git_2", "split": "test", "label": 1, "pred": true, "rules": ["MA002"], "score": 2}
+{"id": "poisoned/Git_3", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Git_4", "split": "test", "label": 1, "pred": true, "rules": ["MA002"], "score": 2}
+{"id": "poisoned/Git_5", "split": "test", "label": 1, "pred": true, "rules": ["MA002"], "score": 2}
+{"id": "poisoned/Git_6", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Git_7", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Git_8", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Git_9", "split": "test", "label": 1, "pred": false, "rules": [], "score": -1}
+{"id": "poisoned/Git_10", "split": "test", "label": 1, "pred": false, "rules": [], "score": -1}
+{"id": "poisoned/Git_11", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/GoogleDrive_1", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004", "MA008"], "score": 3}
+{"id": "poisoned/GoogleDrive_2", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/GoogleDrive_3", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/Sentry_1", "split": "test", "label": 1, "pred": true, "rules": ["MA002"], "score": 3}
+{"id": "poisoned/Google Maps_1", "split": "test", "label": 1, "pred": true, "rules": ["MA002"], "score": 2}
+{"id": "poisoned/Google Maps_2", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Google Maps_3", "split": "test", "label": 1, "pred": true, "rules": ["MA002"], "score": 2}
+{"id": "poisoned/Google Maps_4", "split": "test", "label": 1, "pred": false, "rules": [], "score": -1}
+{"id": "poisoned/Google Maps_5", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Google Maps_6", "split": "test", "label": 1, "pred": false, "rules": [], "score": -1}
+{"id": "poisoned/DoDo Payments_1", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 3}
+{"id": "poisoned/DoDo Payments_2", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004", "MA008"], "score": 3}
+{"id": "poisoned/DoDo Payments_3", "split": "dev", "label": 1, "pred": true, "rules": ["MA002"], "score": 2}
+{"id": "poisoned/DoDo Payments_4", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004", "MA008"], "score": 3}
+{"id": "poisoned/DoDo Payments_5", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/DoDo Payments_6", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/DoDo Payments_7", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/DoDo Payments_8", "split": "dev", "label": 1, "pred": true, "rules": ["MA002"], "score": 2}
+{"id": "poisoned/Apify_1", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA008"], "score": 3}
+{"id": "poisoned/Apify_2", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Apify_3", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Apify_4", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Apify_5", "split": "dev", "label": 1, "pred": true, "rules": ["MA002"], "score": 3}
+{"id": "poisoned/Apify_6", "split": "dev", "label": 1, "pred": true, "rules": ["MA002"], "score": 3}
+{"id": "poisoned/Apify_7", "split": "dev", "label": 1, "pred": true, "rules": ["MA002"], "score": 3}
+{"id": "poisoned/Apify_8", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Apify_9", "split": "dev", "label": 1, "pred": true, "rules": ["MA002"], "score": 3}
+{"id": "poisoned/Apify_10", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Apify_11", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Apify_12", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Apify_13", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Apify_14", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Apify_15", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Apify_16", "split": "dev", "label": 1, "pred": true, "rules": ["MA002"], "score": 3}
+{"id": "poisoned/OP.GG_1", "split": "test", "label": 1, "pred": true, "rules": ["MA002"], "score": 2}
+{"id": "poisoned/OP.GG_2", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/OP.GG_3", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/OP.GG_4", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/OP.GG_5", "split": "test", "label": 1, "pred": true, "rules": ["MA002"], "score": 2}
+{"id": "poisoned/OP.GG_6", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/OP.GG_7", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/OP.GG_8", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/OP.GG_9", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/OP.GG_10", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/OP.GG_11", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/OP.GG_12", "split": "test", "label": 1, "pred": true, "rules": ["MA002"], "score": 2}
+{"id": "poisoned/OP.GG_13", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/OP.GG_14", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/OP.GG_15", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/OP.GG_16", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/OP.GG_17", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/OP.GG_18", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Tavily_1", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Tavily_2", "split": "dev", "label": 1, "pred": true, "rules": ["MA002"], "score": 2}
+{"id": "poisoned/Tavily_3", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Tavily_4", "split": "dev", "label": 1, "pred": true, "rules": ["MA002"], "score": 2}
+{"id": "poisoned/Codacy_1", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA008"], "score": 3}
+{"id": "poisoned/Codacy_2", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Codacy_3", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004", "MA008"], "score": 3}
+{"id": "poisoned/Codacy_4", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Codacy_5", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Codacy_6", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Codacy_7", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Codacy_8", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Codacy_9", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Codacy_10", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Codacy_11", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004", "MA008"], "score": 3}
+{"id": "poisoned/Codacy_12", "split": "test", "label": 1, "pred": false, "rules": [], "score": -1}
+{"id": "poisoned/Codacy_13", "split": "test", "label": 1, "pred": true, "rules": ["MA004", "MA010"], "score": 3}
+{"id": "poisoned/Codacy_14", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Codacy_15", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Codacy_16", "split": "test", "label": 1, "pred": false, "rules": [], "score": -1}
+{"id": "poisoned/Financial Dataset_1", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Financial Dataset_2", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Financial Dataset_3", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Financial Dataset_4", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004", "MA008"], "score": 3}
+{"id": "poisoned/Financial Dataset_5", "split": "test", "label": 1, "pred": true, "rules": ["MA004", "MA008"], "score": 3}
+{"id": "poisoned/Financial Dataset_6", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Financial Dataset_7", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Financial Dataset_8", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Financial Dataset_9", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Financial Dataset_10", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Financial Dataset_11", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Financial Dataset_12", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Financial Dataset_13", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Financial Dataset_14", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Financial Dataset_15", "split": "test", "label": 1, "pred": false, "rules": [], "score": -1}
+{"id": "poisoned/Financial Dataset_16", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Financial Dataset_17", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Financial Dataset_18", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Financial Dataset_19", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Financial Dataset_20", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Financial Dataset_21", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Financial Dataset_22", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Financial Dataset_23", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Financial Dataset_24", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Financial Dataset_25", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Financial Dataset_26", "split": "test", "label": 1, "pred": false, "rules": [], "score": -1}
+{"id": "poisoned/Financial Dataset_27", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Prisma_1", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Prisma_2", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Prisma_3", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Prisma_4", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Prisma_5", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004", "MA008"], "score": 3}
+{"id": "poisoned/Prisma_6", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Prisma_7", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Prisma_8", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Prisma_9", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Prisma_10", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Prisma_11", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Prisma_12", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Prisma_13", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Prisma_14", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Prisma_15", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Prisma_16", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Prisma_17", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Prisma_18", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Prisma_19", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Prisma_20", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/Prisma_21", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Prisma_22", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Prisma_23", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/Prisma_24", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/ClickHouse_1", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/ClickHouse_2", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/ClickHouse_3", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/ClickHouse_4", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/ClickHouse_5", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/ClickHouse_6", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/ClickHouse_7", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/ClickHouse_8", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/ClickHouse_9", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/ClickHouse_10", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/ClickHouse_11", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/ClickHouse_12", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/ClickHouse_13", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/ClickHouse_14", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/ClickHouse_15", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/ClickHouse_16", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/ClickHouse_17", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/ClickHouse_18", "split": "test", "label": 1, "pred": false, "rules": [], "score": -1}
+{"id": "poisoned/ClickHouse_19", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/ClickHouse_20", "split": "test", "label": 1, "pred": false, "rules": [], "score": -1}
+{"id": "poisoned/ClickHouse_21", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/ClickHouse_22", "split": "test", "label": 1, "pred": true, "rules": ["MA002", "MA003", "MA004"], "score": 3}
+{"id": "poisoned/ClickHouse_23", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/ClickHouse_24", "split": "test", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/EverArt_1", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/EverArt_2", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/EverArt_3", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/EverArt_4", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/EverArt_5", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/EverArt_6", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/EverArt_7", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/EverArt_8", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}
+{"id": "poisoned/EverArt_9", "split": "dev", "label": 1, "pred": true, "rules": ["MA004"], "score": 2}
+{"id": "poisoned/EverArt_10", "split": "dev", "label": 1, "pred": true, "rules": ["MA002", "MA004"], "score": 3}

@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-audit"
+version = "0.1.0"
+description = "Find tool poisoning and rug-pulls in MCP servers before your agent loads them. SARIF output and a GitHub Action."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Sebastian Roda" }]
+requires-python = ">=3.10"
+keywords = ["mcp", "model-context-protocol", "llm-security", "prompt-injection", "tool-poisoning", "sarif"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Security",
+  "Environment :: Console",
+]
+dependencies = ["mcp>=2.3,<3", "anyio>=4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6", "matplotlib>=3.8"]
+
+[project.scripts]
+mcp-audit = "mcp_audit.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/Sebastianrodaaa/mcp-audit"
+
+[tool.setuptools]
+packages = ["mcp_audit"]
+
+[tool.ruff]
+line-length = 160
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E701", "E702", "E731"]
+
+[tool.ruff.lint.per-file-ignores]
+"mcp_audit/rules.py" = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

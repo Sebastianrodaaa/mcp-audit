@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>mcp-audit · results</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{--bg:#050505;--panel:#0d0d0d;--line:#1f1f1f;--dim:#5c5c5c;--mid:#9a9a9a;--fg:#e8e8e8;--hi:#ffffff;--mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--fg);font:13px/1.4 var(--mono)}
+.app{display:grid;grid-template-columns:220px 1fr;min-height:100vh}
+aside{border-right:1px solid var(--line);padding:18px 16px;display:flex;flex-direction:column;gap:18px}
+.brand{font-size:18px;letter-spacing:.5px;color:var(--hi)}.brand small{display:block;color:var(--dim);font-size:10px;letter-spacing:1.5px;margin-top:4px;text-transform:uppercase}
+.sec h4{margin:0 0 8px;font-weight:400;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--dim)}
+.kv{display:flex;justify-content:space-between;color:var(--mid);padding:3px 0;border-bottom:1px dashed #161616}.kv b{color:var(--fg);font-weight:400}
+.rule{display:flex;gap:8px;font-size:11px;color:var(--mid);padding:2px 0}.rule i{font-style:normal;color:var(--hi);width:42px}
+main{padding:16px;display:grid;grid-template-columns:repeat(12,1fr);gap:12px;align-content:start}
+.p{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px;min-width:0}
+.p h3{margin:0 0 8px;font-weight:400;font-size:11px;letter-spacing:1.2px;text-transform:uppercase;color:var(--mid);display:flex;justify-content:space-between}
+.p h3 span{color:var(--dim);text-transform:none;letter-spacing:0}
+.kpi{grid-column:span 3}.kpi .n{font-size:30px;color:var(--hi);letter-spacing:-1px}.kpi .s{color:var(--dim);font-size:11px}
+.c8{grid-column:span 8}.c4{grid-column:span 4}.c6{grid-column:span 6}.c12{grid-column:span 12}.c5{grid-column:span 5}.c7{grid-column:span 7}
+svg{display:block;width:100%;height:auto}svg text{fill:var(--dim);font:10px var(--mono)}
+.ax{stroke:#262626}.grid{stroke:#151515}
+table{width:100%;border-collapse:collapse;font-size:12px}th,td{text-align:right;padding:5px 8px;border-bottom:1px solid #161616}th{color:var(--dim);font-weight:400;font-size:10px;letter-spacing:1px;text-transform:uppercase}
+td:first-child,th:first-child{text-align:left}tr.me td{color:var(--hi)}tr.me td:first-child::before{content:"▸ "}
+.find{font-size:11px;border-bottom:1px solid #161616;padding:5px 0;display:grid;grid-template-columns:64px 50px 1fr;gap:8px}
+.find .sev{letter-spacing:1px}.find .critical{background:var(--hi);color:#000;padding:0 4px;border-radius:3px}.find .high{color:var(--hi)}.find .medium{color:var(--mid)}
+.find .ev{grid-column:3;color:var(--dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.legend{display:flex;gap:14px;color:var(--mid);font-size:11px;margin-top:6px}.legend span::before{content:"";display:inline-block;width:8px;height:8px;margin-right:6px;vertical-align:middle;border:1px solid var(--fg)}
+.legend .w::before{background:var(--hi)}.legend .g::before{background:#666;border-color:#666}.legend .o::before{background:none}
+.foot{grid-column:span 12;color:var(--dim);font-size:10px;letter-spacing:.5px;padding:4px 2px}
+</style>
+</head>
+<body>
+<div class="app">
+<aside>
+  <div class="brand">mcp-audit<small>tool poisoning · rug-pulls</small></div>
+  <div class="sec"><h4>Benchmark</h4><div id="bench"></div></div>
+  <div class="sec"><h4>Registry scan</h4><div id="reg"></div></div>
+  <div class="sec"><h4>Rules</h4><div id="rules"></div></div>
+</aside>
+<main>
+  <div class="p kpi"><h3>precision · test</h3><div class="n" id="k1">–</div><div class="s" id="k1s"></div></div>
+  <div class="p kpi"><h3>recall · test</h3><div class="n" id="k2">–</div><div class="s" id="k2s"></div></div>
+  <div class="p kpi"><h3>false-positive rate</h3><div class="n" id="k3">–</div><div class="s" id="k3s"></div></div>
+  <div class="p kpi"><h3>public servers flagged</h3><div class="n" id="k4">–</div><div class="s" id="k4s"></div></div>
+  <div class="p c7"><h3>systems <span>MCPTox · held-out servers</span></h3><div id="sys"></div></div>
+  <div class="p c5"><h3>recall by paradigm <span>static rules · test</span></h3><div id="par"></div></div>
+  <div class="p c4"><h3>threshold sweep <span>flag at severity ≥</span></h3><div id="thr"></div>
+    <div class="legend"><span class="w">precision</span><span class="g">recall</span></div></div>
+  <div class="p c4"><h3>rules firing <span>poisoned test tools</span></h3><div id="hits"></div></div>
+  <div class="p c4"><h3>registry · worst finding <span>per server</span></h3><div id="regbar"></div></div>
+  <div class="p c12"><h3>demo server <span>examples/poisoned_server.py · stage 2 against its lockfile</span></h3><div id="demo"></div></div>
+  <div class="foot" id="foot"></div>
+</main>
+</div>
+<script src="data.js"></script>
+<script>
+const D=window.DATA, $=id=>document.getElementById(id), f=(v,d=3)=>v==null?"–":(+v).toFixed(d), pct=v=>v==null?"–":(100*v).toFixed(1)+"%";
+const NS="http://www.w3.org/2000/svg", SEV=["info","low","medium","high","critical"];
+function svg(w,h){const s=document.createElementNS(NS,"svg");s.setAttribute("viewBox",`0 0 ${w} ${h}`);return s}
+function el(s,tag,a,txt){const e=document.createElementNS(NS,tag);for(const k in a)e.setAttribute(k,a[k]);if(txt!=null)e.textContent=txt;s.appendChild(e);return e}
+function kv(k,v){return `<div class="kv">${k}<b>${v}</b></div>`}
+function hbars(id,items,max=1,fmt=v=>f(v)){const W=520,rh=22,H=items.length*rh+6,s=svg(W,H),L=150;
+  items.forEach(([k,v],i)=>{const y=i*rh+3;el(s,"text",{x:0,y:y+13},k);el(s,"rect",{x:L,y,width:Math.max(1,(W-L-50)*v/max),height:14,fill:i%2?"#bbb":"#fff"});el(s,"text",{x:L+(W-L-50)*v/max+6,y:y+12},fmt(v))});$(id).appendChild(s)}
+const M=D.metrics, sys={...M.systems};for(const j of D.judge)for(const k in j.systems)if(k.includes("judge"))sys[k]=j.systems[k];
+const st=sys["mcp-audit static"].test, bs=M.dataset.by_split;
+$("k1").textContent=pct(st.precision);$("k1s").textContent=`${st.tp} true / ${st.fp} false positives`;
+$("k2").textContent=pct(st.recall);$("k2s").textContent=`${st.fn} poisoned tools missed of ${st.tp+st.fn}`;
+$("k3").textContent=pct(st.fpr);$("k3s").textContent=`on ${st.fp+st.tn} clean tools from held-out servers`;
+$("bench").innerHTML=kv("source","MCPTox")+kv("servers",M.dataset.servers)+kv("dev poisoned",bs.dev.poisoned)+kv("dev clean",bs.dev.clean)+kv("test poisoned",bs.test.poisoned)+kv("test clean",bs.test.clean)+kv("split","by server, seeded");
+let t=`<table><tr><th>system</th><th>precision</th><th>recall</th><th>F1</th><th>FPR</th></tr>`;
+for(const [n,b] of Object.entries(sys)){const m=b.test;t+=`<tr class="${n=="mcp-audit static"?"me":""}"><td>${n}</td><td>${f(m.precision)}</td><td>${f(m.recall)}</td><td>${f(m.f1)}</td><td>${f(m.fpr)}</td></tr>`}
+$("sys").innerHTML=t+"</table>";
+const PAR={"Template-1":"explicit · hijack","Template-2":"implicit · hijack","Template-3":"implicit · tamper"};
+hbars("par",Object.entries(M.recall_by_paradigm.test).map(([k,v])=>[PAR[k]||k,v]));
+{const th=M.static_by_threshold.test,ks=Object.keys(th),W=360,H=170,s=svg(W,H),m={l:30,r:26,t:10,b:22};
+ const X=i=>m.l+i*(W-m.l-m.r)/(ks.length-1),Y=v=>H-m.b-v*(H-m.t-m.b);
+ for(const g of [0,.5,1]){el(s,"line",{x1:m.l,x2:W-m.r,y1:Y(g),y2:Y(g),class:"grid"});el(s,"text",{x:m.l-6,y:Y(g)+3,"text-anchor":"end"},g)}
+ ks.forEach((k,i)=>el(s,"text",{x:X(i),y:H-6,"text-anchor":"middle"},k));
+ for(const [key,col,dash] of [["precision","#fff",""],["recall","#777","4 3"]]){el(s,"path",{d:ks.map((k,i)=>(i?"L":"M")+X(i)+","+Y(th[k][key])).join(""),stroke:col,fill:"none","stroke-width":1.6,"stroke-dasharray":dash});ks.forEach((k,i)=>el(s,"circle",{cx:X(i),cy:Y(th[k][key]),r:3,fill:"#000",stroke:col}))}
+ $("thr").appendChild(s)}
+{const h=Object.entries(M.rule_hits_poisoned.test);hbars("hits",h,Math.max(...h.map(x=>x[1])),v=>v)}
+const R=D.registry, rank=s=>SEV.indexOf(s);
+if(R.servers.length){const worst={};for(const x of R.findings)worst[x.server]=Math.max(worst[x.server]??-1,rank(x.severity));
+  const n=R.servers.length,cnt=s=>Object.values(worst).filter(v=>v==rank(s)).length,flag=Object.values(worst).filter(v=>v>=3).length;
+  $("k4").textContent=`${flag} / ${n}`;$("k4s").textContent=`high or worse · ${R.servers.reduce((a,s)=>a+s.tools,0)} tools listed`;
+  hbars("regbar",[["critical",cnt("critical")],["high",cnt("high")],["medium",cnt("medium")],["low",cnt("low")],["none",n-Object.keys(worst).length]],n,v=>v);
+  const mt=R.meta||{};$("reg").innerHTML=kv("listed",mt.listed??"–")+kv("remote, no auth",mt.candidates??"–")+kv("probed",mt.probed??"–")+kv("answered",n)+kv("tools",R.servers.reduce((a,s)=>a+s.tools,0))}
+$("rules").innerHTML=[["MA001","hidden unicode"],["MA002","model-directed"],["MA003","sensitive path"],["MA004","tool shadowing"],["MA005","exfil parameter"],["MA006","oversized schema"],["MA007","suspicious literal"],["MA008","concealment"],["MA009","hidden markup"],["MA010","data exfiltration"],["MA011","name collision"],["MA012","rug-pull"],["MA013","llm judge"]].map(([a,b])=>`<div class="rule"><i>${a}</i>${b}</div>`).join("");
+if(D.demo){$("demo").innerHTML=D.demo.findings.filter(x=>rank(x.severity)>=2).slice(0,9).map(x=>`<div class="find"><span class="sev ${x.severity}">${x.severity.toUpperCase()}</span><span>${x.rule}</span><span>${x.kind} <b>${x.item}</b>: ${x.message}</span><span class="ev">↳ ${(x.evidence||"").replace(/</g,"&lt;")}</span></div>`).join("")}
+$("foot").textContent="every number is read from results/*.json · regenerate with `make results` · static rules developed on dev servers only";
+</script>
+</body>
+</html>

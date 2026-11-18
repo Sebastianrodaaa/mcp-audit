@@ -1,0 +1,12 @@
+.venv/
+.cache/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+*.sarif
+mcp-audit.lock
+!examples/*.lock
+results/registry/candidates.json
