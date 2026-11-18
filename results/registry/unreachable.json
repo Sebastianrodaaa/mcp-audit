@@ -1,0 +1,672 @@
+[
+ {
+  "name": "com.quberi/mcp",
+  "url": "https://mcp.quberi.com/",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "ai.galatic/galatic",
+  "url": "https://mcp.galatic.ai/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.gheima/mcp",
+  "url": "https://gheima.ma/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "app.lotsstore/lotsstore",
+  "url": "https://api.lotsstore.app/mcp",
+  "error": "MCPError: Missing or invalid authorization header"
+ },
+ {
+  "name": "ai.agenticbooks/books",
+  "url": "https://mcp.agenticbooks.ai/mcp",
+  "error": "MCPError: Unauthorized: Missing Authorization header"
+ },
+ {
+  "name": "dev.stele-ai/stele",
+  "url": "https://app.stele-ai.dev/api/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.Zyxel89/pretrade-oracle",
+  "url": "https://pretrade-oracle.duckdns.org/mcp",
+  "error": "ConnectError: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1007)"
+ },
+ {
+  "name": "dev.cotlet/my-pt-hub",
+  "url": "https://cotlet.dev/mcp/v1/my-pt-hub/connect",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "app.commandmail/mail",
+  "url": "https://commandmail.app/mcp",
+  "error": "MCPError: Authorization required"
+ },
+ {
+  "name": "ai.fotogenic/mcp",
+  "url": "https://mcp.fotogenic.ai/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "ai.subscribr/subscribr",
+  "url": "https://subscribr.ai/mcp/subscribr",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "ai.parceled/mcp",
+  "url": "https://parceled.ai/api/mcp",
+  "error": "MCPError: Redirect to https://www.parceled.ai/api/mcp not followed; use that URL as the endpoint if it is the intended server"
+ },
+ {
+  "name": "com.cartviral/cartviral",
+  "url": "https://app.cartviral.com/mcp",
+  "error": "MCPError: Missing or invalid credentials. Connect with OAuth, or create an API key in CartViral: Account \u2192 AI agents (https://app.cartviral.com/account/agents)."
+ },
+ {
+  "name": "ai.usealloy/alloy",
+  "url": "https://aus.usealloy.ai/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.sumitrmardy/email-verifier",
+  "url": "https://mcp.apify.com/?tools=sumitr_mardy/email-verifier",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.carsonroell-debug/steadyfetch",
+  "url": "https://steadyfetch-production.up.railway.app/mcp",
+  "error": "MCPError: Not Found"
+ },
+ {
+  "name": "ai.directories/directories-ai",
+  "url": "https://directories.ai/mcp",
+  "error": "MCPError: API key required. Provide via Authorization: Bearer <key>, X-API-Key, or DIRECTORIES-AI-API-KEY header"
+ },
+ {
+  "name": "io.gptbusiness/gpt-business",
+  "url": "https://mcp.gptbusiness.io/mcp",
+  "error": "MCPError: Missing bearer token"
+ },
+ {
+  "name": "com.yomachichi/shop",
+  "url": "https://yomachichi.com/api/ucp/mcp",
+  "error": "MCPError: UCP discovery failed"
+ },
+ {
+  "name": "com.typebid/typebid",
+  "url": "https://typebid.com/mcp",
+  "error": "TimeoutError: "
+ },
+ {
+  "name": "com.pinafly/guides",
+  "url": "https://pinafly.com/mcp/guides",
+  "error": "MCPError: Connect this app to your Pinafly account (OAuth), or make an API token on Live review."
+ },
+ {
+  "name": "com.corpole/requirements",
+  "url": "https://corpole.com/api/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "ai.kontato/kontato",
+  "url": "https://api.kontato.ai/mcp",
+  "error": "MCPError: Authentication required. Log in to Kontato."
+ },
+ {
+  "name": "net.dynv6.1rbt1/rbt",
+  "url": "https://1rbt1.dynv6.net/mcp",
+  "error": "MCPError: MCP-Protocol-Version header is required"
+ },
+ {
+  "name": "ai.paintcoatings/marindec",
+  "url": "https://api.paintcoatings.ai/marindec/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "host.hodi/hodi",
+  "url": "https://hodi.host/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.caraulani/euacc-mcp",
+  "url": "https://www.euacc.ai/api/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "com.axiocairn/mcp",
+  "url": "https://axiocairn.com/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "ai.aivikings/registrar",
+  "url": "https://mcp.aivikings.ai/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "com.screenata/compliance",
+  "url": "https://api.screenata.com/mcp",
+  "error": "MCPError: Authorization required. Provide a Bearer token."
+ },
+ {
+  "name": "ai.saifs/process-control",
+  "url": "https://process-monitor-mcp.saifs.ai/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "com.sendifai/platform",
+  "url": "https://www.sendifai.com/api/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.rdanieli/tentra",
+  "url": "https://trytentra.com/api/mcp",
+  "error": "HTTPStatusError: Client error '401 Unauthorized' for url 'https://trytentra.com/api/mcp'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
+ },
+ {
+  "name": "io.github.BuilderIO/agent-native-forms",
+  "url": "https://forms.agent-native.com/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "com.netapi/mcp",
+  "url": "https://mcp.netapi.com/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.CSOAI-ORG/meok-cra-art14-reporter-mcp",
+  "url": "https://api.meok.ai/v1/governance/cra-art14-reporter",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.pipeworx-io/sistat-si",
+  "url": "https://gateway.pipeworx.io/sistat-si/mcp",
+  "error": "ValidationError: 3 validation errors for ListToolsResult\ntools.44.outputSchema.type\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.14/v/missing\ntools.45.outputSchema.type\n  Field required [type=missing, input_value={},"
+ },
+ {
+  "name": "co.codeways/codeways-mcp",
+  "url": "https://website-api.codeways.co/mcp",
+  "error": "MCPError: Invalid request. Method not supported."
+ },
+ {
+  "name": "com.posteveryplatform/posteveryplatform",
+  "url": "https://posteveryplatform.com/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "com.atriumkit/atriumkit",
+  "url": "https://app.atriumkit.com/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.J0401/uk-operator-licences",
+  "url": "https://mcp.apify.com?tools=j0401/uk-operator-licences",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.maebsy/72hours",
+  "url": "https://oboe-handiness-enroll.ngrok-free.dev/mcp/service/rpc",
+  "error": "MCPError: Not Found"
+ },
+ {
+  "name": "io.github.nicholasoxford/bible-glide",
+  "url": "https://api.bibleglide.com/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "lt.nodo/ltlaw",
+  "url": "https://mcp.nodo.lt",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "chat.airys/mcp",
+  "url": "https://mcp.airys.chat/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.soyeladice-svg/bursia-canary",
+  "url": "https://phase1b-github-mcp-gateway-canary-20260918-bursia-interop-lab.soyeladice.workers.dev/mcp",
+  "error": "MCPError: Not Found"
+ },
+ {
+  "name": "ai.smithery/TakoData-tako-mcp",
+  "url": "https://server.smithery.ai/@TakoData/tako-mcp/mcp",
+  "error": "MCPError: Not Found"
+ },
+ {
+  "name": "io.github.pipeworx-io/twitch",
+  "url": "https://gateway.pipeworx.io/twitch/mcp",
+  "error": "ValidationError: 1 validation error for ListToolsResult\ntools.47.outputSchema.type\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.14/v/missing"
+ },
+ {
+  "name": "io.github.rhoneybul/etapa-mcp",
+  "url": "https://etapa-mcp-production.up.railway.app/mcp",
+  "error": "MCPError: Auth not configured"
+ },
+ {
+  "name": "app.wishpool/bangladesh-payments-mcp",
+  "url": "https://mcp-bd.wishpool.app/mcp",
+  "error": "ConnectError: [Errno -2] Name or service not known"
+ },
+ {
+  "name": "io.github.sapph1re/mcp-billing-gateway",
+  "url": "https://mcp-billing-gateway-production.up.railway.app/mcp/",
+  "error": "MCPError: Not Found"
+ },
+ {
+  "name": "io.github.junct-bot/wormhole-mcp",
+  "url": "https://wormhole.mcp.junct.dev/mcp",
+  "error": "ConnectError: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)"
+ },
+ {
+  "name": "tours.yournext/guide",
+  "url": "https://api.yournext.tours/api/mcp/guide",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "com.olyport/treatment-locator",
+  "url": "https://mcp.olyport.com/treatment-locator/mcp",
+  "error": "MCPError: Unexpected content type: "
+ },
+ {
+  "name": "com.clauxel.pydanticcontract/pydanticcontract-mcp",
+  "url": "https://pydanticcontract.clauxel.com/mcp",
+  "error": "ConnectError: [Errno -2] Name or service not known"
+ },
+ {
+  "name": "cn.550wai/550w-ai-media-cn",
+  "url": "https://www.550wai.cn/mcp/cn",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "com.getmcpulse/mcpulse",
+  "url": "https://api.getmcpulse.com/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.Kaanthan24/agnigateway-mcp",
+  "url": "https://api.agnigateway.com/mcp/v1/public/mcp",
+  "error": "MCPError: Redirect to https://wjeqwognvxhpjdldtiva.supabase.co/functions/v1/marketplace-mcp-server/v1/public/mcp not followed; use that URL as the endpoint if it is the intended server"
+ },
+ {
+  "name": "com.aidoptio/advisor",
+  "url": "https://aidoptio.com/api/v1/mcp.php",
+  "error": "TimeoutError: "
+ },
+ {
+  "name": "com.runcabin/cabin",
+  "url": "https://runcabin.com/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "com.sygnliq/sygnldata",
+  "url": "https://api.sygnliq.com/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "app.tnpropertysearch/tn-property",
+  "url": "https://tnpropertysearch.app/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "ai.smithery/plainyogurt21-clintrials-mcp",
+  "url": "https://server.smithery.ai/@plainyogurt21/clintrials-mcp/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.previbe/previbe",
+  "url": "https://previbe.io/api/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "com.waypointlog/logbook",
+  "url": "https://mcp.waypointlog.com/mcp",
+  "error": "MCPError: Sign in to Waypoint Log to use this logbook."
+ },
+ {
+  "name": "io.github.FoundryNet/weather-intel-mcp",
+  "url": "https://weather-intel-mcp-production.up.railway.app/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.pipeworx-io/nsi-bg",
+  "url": "https://gateway.pipeworx.io/nsi-bg/mcp",
+  "error": "ValidationError: 2 validation errors for ListToolsResult\ntools.44.outputSchema.type\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.14/v/missing\ntools.45.outputSchema.type\n  Field required [type=missing, input_value={},"
+ },
+ {
+  "name": "com.opendiavgeia/diavgeia",
+  "url": "https://opendiavgeia.com/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.volatility/vlab-mcp",
+  "url": "https://vlab.stern.nyu.edu/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.saulius876-lgtm/airbnb",
+  "url": "https://mcp.apify.com/?tools=sauliusautomatesit/airbnb-scraper-api",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "ai.snapdub/snapdub",
+  "url": "https://snapdub.ai/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.socialloopai/socialloop-mcp",
+  "url": "https://mcp.socialloop.ai",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "com.numbru/client-compass",
+  "url": "https://numbru-mcp-server.numbru.workers.dev",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "dev.augments/mcp",
+  "url": "https://mcp.augments.dev/mcp",
+  "error": "ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)"
+ },
+ {
+  "name": "ar.fiveb/fivebar",
+  "url": "https://fiveb.ar/api/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "dev.slashclone/slashclone",
+  "url": "https://mcp.slashclone.dev/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "com.streaming-lens.mcp/streaming-radar",
+  "url": "https://mcp.streaming-lens.com/public",
+  "error": "MCPError: Method prompts/list requires an API key. Use the authenticated endpoint at https://mcp.streaming-lens.com/ (OAuth 2.1 or Bearer)."
+ },
+ {
+  "name": "io.github.donniertf-hub/us-company-financials-mcp",
+  "url": "https://us-company-financials-mcp.donniertf.workers.dev/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "com.botwatercooler/botwatercooler",
+  "url": "https://botwatercooler.com/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "dev.logo/mcp",
+  "url": "https://mcp.logo.dev/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "com.whensport/sailing",
+  "url": "https://whensport.com/mcp/sailing",
+  "error": "MCPError: Not Found"
+ },
+ {
+  "name": "io.onlinecompiler/compiler",
+  "url": "https://api.onlinecompiler.io/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.yolfinance/yolfi-agent",
+  "url": "https://app.yolfi.com/mcp",
+  "error": "MCPError: Unauthorized"
+ },
+ {
+  "name": "uk.quantdata/quantdata",
+  "url": "https://api.quantdata.uk/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.Evozim/logisticflow",
+  "url": "https://logisticflow-mcp.vercel.app/api/mcp",
+  "error": "HTTPStatusError: Client error '405 Method Not Allowed' for url 'https://logisticflow-mcp.vercel.app/api/mcp'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/405"
+ },
+ {
+  "name": "io.mailmcp/mailmcp",
+  "url": "https://mailmcp.io/mcp",
+  "error": "MCPError: Unauthorized"
+ },
+ {
+  "name": "io.github.car-helper-tool/car-helper-tools",
+  "url": "https://mcp.apify.com/?tools=jyaussie/vehicle-year-risk-comparator,jyaussie/eu-vehicle-recall-monitor,jyaussie/uk-mot-failure-stats,jyaussie/cyprus-company-vat-check,jyaussie/eu-car-specs-co2",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.pipeworx-io/openfema",
+  "url": "https://gateway.pipeworx.io/openfema/mcp",
+  "error": "ValidationError: 2 validation errors for ListToolsResult\ntools.45.outputSchema.type\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.14/v/missing\ntools.46.outputSchema.type\n  Field required [type=missing, input_value={},"
+ },
+ {
+  "name": "io.alion/jobs",
+  "url": "https://alion.io/mcp/jobs",
+  "error": "MCPError: Free without signing in: connect https://alion.io/mcp/open (job and company searches, job postings, people). For everything, sign in with your Alion account (OAuth, see https://alion.io/.well-known/oauth-protected-resource/mcp/jobs) or send an API key from https://alion.io/developers/keys."
+ },
+ {
+  "name": "io.github.projectworks007/job-boards",
+  "url": "https://mcp.apify.com/?tools=highbrow_fame/welcome-to-the-jungle-jobs,highbrow_fame/stepstone-jobs,highbrow_fame/naukri-jobs,highbrow_fame/naukrigulf-jobs,highbrow_fame/jobstreet-jobsdb-jobs,highbrow_fame/xing-jobs,highbrow_fame/foundit-jobs,highbrow_fame/arbeitsagentur-jobs,highbrow_fame/infojobs-jobs,highbrow_fame/reed-jobs,highbrow_fame/remote-jobs-aggregator,highbrow_fame/hellowork-jobs,highbrow_fame/totaljobs-jobs,highbrow_fame/mycareersfuture-jobs,highbrow_fame/nofluffjobs-jobs",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.forthroute/returns",
+  "url": "https://app.forthroute.io/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "com.clauxel.universalcartmerchantgate/universalcartmerchantgate-mcp",
+  "url": "https://universalcartmerchantgate.clauxel.com/mcp",
+  "error": "ConnectError: [Errno -2] Name or service not known"
+ },
+ {
+  "name": "ai.theinfluencer/the-influencer-ai",
+  "url": "https://www.theinfluencer.ai/api/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "ai.pimea/pimea",
+  "url": "https://api.pimea.ai/mcp/",
+  "error": "MCPError: Not Found"
+ },
+ {
+  "name": "io.github.awpthorp/posterly",
+  "url": "https://www.poster.ly/api/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "net.audiodelivery/mcp",
+  "url": "https://mcp.audiodelivery.net/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "com.vibe-vaults/vibevaults",
+  "url": "https://www.vibe-vaults.com/api/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.ryansilk/apexvol-mcp",
+  "url": "https://apexvol.com/mcp-server",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "com.orioralabs/router",
+  "url": "https://api.orioralabs.com/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "ai.archome/archome",
+  "url": "https://archome.ai/api/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.aurato/aurato",
+  "url": "https://mcp.aurato.io",
+  "error": "MCPError: Sign in with OAuth or provide an Aurato Graph key"
+ },
+ {
+  "name": "com.electronics-architect/electronics-architect",
+  "url": "https://electronics-architect.com/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "com.oneagentaday/agents",
+  "url": "https://oneagentaday.com/api/mcp",
+  "error": "MCPError: Redirect to https://www.oneagentaday.com/api/mcp not followed; use that URL as the endpoint if it is the intended server"
+ },
+ {
+  "name": "nl.ragently/crm",
+  "url": "https://api.ragently.nl/crm/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.mctx-ai/bible",
+  "url": "https://bible.mctx.ai/v1.3.4",
+  "error": "ConnectError: [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1007)"
+ },
+ {
+  "name": "io.github.InsForge/insforge-mcp",
+  "url": "https://mcp.insforge.dev/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.noduty/planner",
+  "url": "https://planner.noduty.io/mcp",
+  "error": "MCPError: Not Found"
+ },
+ {
+  "name": "com.appwizzy/projects",
+  "url": "https://appwizzy.com/mcp/projects",
+  "error": "MCPError: Authentication required"
+ },
+ {
+  "name": "com.appboxapp/appbox",
+  "url": "https://mcp.appboxapp.com/mcp",
+  "error": "MCPError: \uc778\uc99d\uc774 \ud544\uc694\ud569\ub2c8\ub2e4. AI \uc571\uc5d0\uc11c \uc571\ubc15\uc2a4 \uacc4\uc815\uc73c\ub85c \ub85c\uadf8\uc778\ud574 \uc5f0\uacb0\ud574 \uc8fc\uc138\uc694."
+ },
+ {
+  "name": "io.github.getsentry/sentry-mcp",
+  "url": "https://mcp.sentry.dev/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.vasilicasijarvis/extractedge",
+  "url": "https://extractedge.lastunmihai1986.workers.dev/mcp",
+  "error": "MCPError: Not Found"
+ },
+ {
+  "name": "ai.send4/mcp",
+  "url": "https://mcp.send4.ai/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "com.tesorio/mcp",
+  "url": "https://mcp.tesorio.com/v1/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "app.notefit/notefit",
+  "url": "https://notefit.app/api/mcp",
+  "error": "MCPError: Missing bearer token"
+ },
+ {
+  "name": "io.github.varvararatta/support_service_management_mcp",
+  "url": "https://support-service-management-mcp.mcpize.run/mcp",
+  "error": "MCPError: Server not found"
+ },
+ {
+  "name": "xyz.tenzro/tenzro-solana",
+  "url": "https://solana-mcp.tenzro.xyz/mcp",
+  "error": "ConnectError: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1007)"
+ },
+ {
+  "name": "io.github.japanfold/japanfold",
+  "url": "https://api.japanfold.aiand.com/mcp",
+  "error": "MCPError: No JapanFold API key on this connection. A client that supports MCP sign-in (claude.ai, Claude Desktop, ChatGPT) signs in in the browser. Otherwise make a key at https://japanfold.aiand.com/account/token, put it in JAPANFOLD_API_KEY and add the server with the header `Authorization: Bearer"
+ },
+ {
+  "name": "io.github.NadaHo/domain-authority-checker",
+  "url": "https://mcp.apify.com/?tools=plainrows/domain-authority-checker",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "no.rettsarkiv/rettsarkiv",
+  "url": "https://rettsarkiv-mcp-953525390683.europe-west3.run.app/mcp",
+  "error": "MCPError: Not Found"
+ },
+ {
+  "name": "io.github.fernikolic/perception",
+  "url": "https://mcp.perception.to/mcp",
+  "error": "MCPError: Invalid or expired API key. Please reconnect your MCP integration to generate a new key. Visit https://app.perception.to/app/settings/integrations for setup instructions."
+ },
+ {
+  "name": "com.voronyuk.webhook/inspector",
+  "url": "https://webhook.voronyuk.com/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.Evozim/cargo-insurance-broker-mcp",
+  "url": "https://api.m2mcent.com/cargo-insurance-broker-mcp/sse",
+  "error": "MCPError: Connection closed"
+ },
+ {
+  "name": "io.sentinelsignal/scoring",
+  "url": "https://mcp.sentinelsignal.io/mcp",
+  "error": "ConnectError: [Errno -2] Name or service not known"
+ },
+ {
+  "name": "io.github.Evozim/crypto-tax-loss-harvester-mcp",
+  "url": "https://api.m2mcent.com/crypto-tax-loss-harvester-mcp/sse",
+  "error": "MCPError: Connection closed"
+ },
+ {
+  "name": "com.roar-ai/mcp",
+  "url": "https://cloud.roar-ai.com/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.Evozim/blind-signature-voting-gate-mcp",
+  "url": "https://api.m2mcent.com/blind-signature-voting-gate-mcp/sse",
+  "error": "MCPError: Connection closed"
+ },
+ {
+  "name": "io.github.dancourse/agentdocs",
+  "url": "https://getagentdocs.com/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.Evozim/cross-company-agent-dispute-court-mcp",
+  "url": "https://api.m2mcent.com/cross-company-agent-dispute-court-mcp/sse",
+  "error": "MCPError: Connection closed"
+ },
+ {
+  "name": "site.mailly/mcp",
+  "url": "https://mcp.mailly.site/mcp",
+  "error": "MCPError: Sign in to Mailly, or send Authorization: Bearer <Mailly API key>."
+ },
+ {
+  "name": "com.miseaudit/hotel-operations",
+  "url": "https://connector.miseaudit.com/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "com.wholesalepilot/wholesalepilot",
+  "url": "https://wholesalepilot.com/api/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "com.getveles/cpq",
+  "url": "https://app.getveles.com/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.eranfinish/ezatwork",
+  "url": "https://mcp.ezatwork.com/mcp",
+  "error": "MCPError: Server returned an error response"
+ },
+ {
+  "name": "io.github.La-Salida/schwanki",
+  "url": "https://schwankiapp.com/mcp",
+  "error": "MCPError: Server returned an error response"
+ }
+]

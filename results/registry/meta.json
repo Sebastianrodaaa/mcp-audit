@@ -1,0 +1,8 @@
+{
+ "listed": 67037,
+ "candidates": 41228,
+ "probed": 352,
+ "answered": 200,
+ "seed": "mcp-audit-17",
+ "note": "probed in seeded order until 200 answered with a non-empty inventory"
+}

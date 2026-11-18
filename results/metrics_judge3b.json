@@ -1,0 +1,139 @@
+{
+  "dataset": {
+    "rows": 847,
+    "servers": 45,
+    "by_split": {
+      "dev": {
+        "clean": 182,
+        "poisoned": 244
+      },
+      "test": {
+        "clean": 180,
+        "poisoned": 241
+      }
+    }
+  },
+  "systems": {
+    "keyword baseline": {
+      "test": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 92,
+        "tn": 100,
+        "precision": 1.0,
+        "recall": 0.08,
+        "f1": 0.1481,
+        "fpr": 0.0
+      }
+    },
+    "mcp-audit static": {
+      "test": {
+        "tp": 94,
+        "fp": 1,
+        "fn": 6,
+        "tn": 99,
+        "precision": 0.9895,
+        "recall": 0.94,
+        "f1": 0.9641,
+        "fpr": 0.01
+      }
+    },
+    "LLM judge (qwen2.5:3b)": {
+      "test": {
+        "tp": 100,
+        "fp": 42,
+        "fn": 0,
+        "tn": 58,
+        "precision": 0.7042,
+        "recall": 1.0,
+        "f1": 0.8264,
+        "fpr": 0.42
+      }
+    },
+    "static OR judge (qwen2.5:3b)": {
+      "test": {
+        "tp": 100,
+        "fp": 43,
+        "fn": 0,
+        "tn": 57,
+        "precision": 0.6993,
+        "recall": 1.0,
+        "f1": 0.823,
+        "fpr": 0.43
+      }
+    },
+    "static AND judge (qwen2.5:3b)": {
+      "test": {
+        "tp": 94,
+        "fp": 0,
+        "fn": 6,
+        "tn": 100,
+        "precision": 1.0,
+        "recall": 0.94,
+        "f1": 0.9691,
+        "fpr": 0.0
+      }
+    }
+  },
+  "judge_sample": 200,
+  "recall_by_paradigm": {
+    "test": {
+      "Template-1": 0.9091,
+      "Template-2": 0.9714,
+      "Template-3": 0.9259
+    }
+  },
+  "rule_hits_poisoned": {
+    "test": {
+      "MA004": 89,
+      "MA002": 72,
+      "MA003": 6,
+      "MA008": 3,
+      "MA010": 1
+    }
+  },
+  "static_by_threshold": {
+    "test": {
+      "low": {
+        "tp": 94,
+        "fp": 1,
+        "fn": 6,
+        "tn": 99,
+        "precision": 0.9895,
+        "recall": 0.94,
+        "f1": 0.9641,
+        "fpr": 0.01
+      },
+      "medium": {
+        "tp": 94,
+        "fp": 1,
+        "fn": 6,
+        "tn": 99,
+        "precision": 0.9895,
+        "recall": 0.94,
+        "f1": 0.9641,
+        "fpr": 0.01
+      },
+      "high": {
+        "tp": 71,
+        "fp": 0,
+        "fn": 29,
+        "tn": 100,
+        "precision": 1.0,
+        "recall": 0.71,
+        "f1": 0.8304,
+        "fpr": 0.0
+      },
+      "critical": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 100,
+        "tn": 100,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "fpr": 0.0
+      }
+    }
+  }
+}
